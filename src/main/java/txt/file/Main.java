@@ -45,17 +45,23 @@ public class Main {
                 System.out.println(line);
             }
 
+            inputBR.close();
+            tempBR.close();
 
-            inputFile.deleteOnExit();
-            tempFile.renameTo(inputFile);
 
-            
+            if (inputFile.delete()) {
+                tempFile.renameTo(inputFile);
+            } else {
+                System.out.println("\nCould not delete the original file.");
+            }
+
+
         } catch (IOException e) {
             System.out.println("The file cannot be created! Error: " + e);
         } finally {
             try {
                 if (inputBR != null) inputBR.close();
-                if (tempBR!= null) tempBR.close();
+                if (tempBR != null) tempBR.close();
             } catch (IOException e) {
                 System.out.println("Error: " + e);
             }

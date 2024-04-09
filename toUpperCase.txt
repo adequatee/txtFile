@@ -1,4 +1,4 @@
-Java is a programming language and computing platform first released by Sun Microsystems in 1995.
-It has evolved from humble beginnings to power a large share of today’s digital world,
-by providing the reliable platform upon which many services and applications are built.
-New, innovative products and digital services designed for the future continue to rely on Java, as well.
+JAVA IS A PROGRAMMING LANGUAGE AND COMPUTING PLATFORM FIRST RELEASED BY SUN MICROSYSTEMS IN 1995.
+IT HAS EVOLVED FROM HUMBLE BEGINNINGS TO POWER A LARGE SHARE OF TODAY’S DIGITAL WORLD,
+BY PROVIDING THE RELIABLE PLATFORM UPON WHICH MANY SERVICES AND APPLICATIONS ARE BUILT.
+NEW, INNOVATIVE PRODUCTS AND DIGITAL SERVICES DESIGNED FOR THE FUTURE CONTINUE TO RELY ON JAVA, AS WELL.
