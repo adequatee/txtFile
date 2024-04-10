@@ -9,7 +9,7 @@ public class Main {
 
         try {
 
-            File inputFile = new File("toUpperCase.txt");
+            File inputFile = new File("inputFile.txt");
             if (!inputFile.exists()) {
                 inputFile.createNewFile();
             }
@@ -21,7 +21,7 @@ public class Main {
             inputPW.close();
 
 
-            File tempFile = new File("tempFile.txt");
+            File tempFile = new File("toUpperCaseFile.txt");
             if (!tempFile.exists()) {
                 tempFile.createNewFile();
             }
@@ -43,16 +43,6 @@ public class Main {
             System.out.println("\nafter working with txt file:");
             while ((line = tempBR.readLine()) != null) {
                 System.out.println(line);
-            }
-
-            inputBR.close();
-            tempBR.close();
-
-
-            if (inputFile.delete()) {
-                tempFile.renameTo(inputFile);
-            } else {
-                System.out.println("\nCould not delete the original file.");
             }
 
 
