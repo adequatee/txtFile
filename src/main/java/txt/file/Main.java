@@ -21,7 +21,7 @@ public class Main {
             inputPW.close();
 
 
-            File tempFile = new File("toUpperCaseFile.txt");
+            File tempFile = new File("toUpperCase.txt");
             if (!tempFile.exists()) {
                 tempFile.createNewFile();
             }
@@ -30,7 +30,7 @@ public class Main {
 
             String line;
 
-            inputBR = new BufferedReader(new FileReader("toUpperCase.txt"));
+            inputBR = new BufferedReader(new FileReader("inputFile.txt"));
             System.out.println("\nbefore working with txt file:");
             while ((line = inputBR.readLine()) != null) {
                 System.out.println(line);
@@ -39,7 +39,7 @@ public class Main {
             tempPW.close();
 
 
-            tempBR = new BufferedReader(new FileReader("tempFile.txt"));
+            tempBR = new BufferedReader(new FileReader("toUpperCase.txt"));
             System.out.println("\nafter working with txt file:");
             while ((line = tempBR.readLine()) != null) {
                 System.out.println(line);
